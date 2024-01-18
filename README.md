@@ -6,3 +6,5 @@
     <li>react-router-dom</li>
     <li>Vanilla Extract CSS</li>
 </ul>
+
+A simple base React project with Routes and Vanilla Extract CSS already setup for you

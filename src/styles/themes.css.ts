@@ -1,7 +1,7 @@
 import { createGlobalTheme } from "@vanilla-extract/css";
 
 
-export const vars = createGlobalTheme(':root', {
+export const root = createGlobalTheme(':root', {
     fonts: {
 
     },
@@ -26,3 +26,5 @@ export const vars = createGlobalTheme(':root', {
         '3x': '16px'
     }
 })
+
+export const vars = { ...root };

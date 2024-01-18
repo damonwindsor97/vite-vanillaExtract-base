@@ -1,8 +1,12 @@
-
+import * as styles from './Home.css'
 
 const Home = () => {
   return (
-    <div>Home Page</div>
+    <div className={styles.home}>
+      Home Page
+    
+    
+    </div>
   )
 }
 
